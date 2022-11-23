@@ -1,0 +1,47 @@
+#g_list li{						/*css for home.html*/
+	display:inline;					/*layout setting*/	
+}
+/*---------------------------------------------------*/
+#intro{							/*layout setting*/
+	margin-top:100px;
+	text-align:center;
+}
+/*---------------------------------------------------*/
+.g_pic{
+	display:inline-block;
+	width:130px;
+	height:300px;					/*^^layout settings^^*/
+	background:no-repeat;
+}
+/*---------------------------------------------------*/
+.g_pic:hover{
+	background-position:-130px 0px;			/*images sprite*/
+}
+/*---------------------------------------------------*/
+li div{
+	margin:40px 30px;
+	width:130px;
+	height:300px;
+	display:inline-block;
+	text-align:top;					/*^^layout settings^^*/
+	border:5px ridge peru;			/*setting border*/
+	background:
+		url("../img/character_background.png")
+		center 
+		center 
+		fixed 
+		no-repeat;
+	background-size: cover;
+	border-radius:15px;
+}
+/*---------------------------------------------------*/
+#g_list{
+	margin-right:40px;				/*layout setting*/
+}
+/*---------------------------------------------------*/
+a+p{
+	line-height:25px;				/*since using a special character "&#10084", make whole text layout change*/
+							/*so have to redefine text height to make layout more pretty.		  */ 
+	background-color:rgba(72,50,50,0.7);
+	color:#ffffff;
+}

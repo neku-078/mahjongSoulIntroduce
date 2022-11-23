@@ -1,0 +1,16 @@
+#intro{							/*layout setting*/
+	margin-top:80px;
+	background-color:rgba(255,255,255,0.6);		/*setting bg*/
+}
+/*-------------------------------------------------------*/
+#logo{
+	width:281px;
+	height:275px;						/*^^layout settings^^*/
+	object-fit:cover;
+}
+/*-------------------------------------------------------*/
+#pic{
+	width:710px;
+	height:479px;						/*^^layout settings^^*/
+	object-fit:cover;
+}

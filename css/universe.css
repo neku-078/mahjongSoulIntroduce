@@ -1,0 +1,46 @@
+body{							/*css for universe layout*/
+	width:960px;
+	margin:0 auto;
+	background:					/*setting all background info*/
+		url("../img/background.jpg")
+		center
+		center
+		fixed 
+		no-repeat;
+	background-size: cover;
+	font-family:Microsoft JhengHei;
+}
+/*-------------------------------------------*/
+nav{							
+	top:0px;					/*fix nav on top of the pages*/
+	position:fixed;
+	padding-right:40px;				/*setting for layout*/
+	height:50px;
+}
+/*-------------------------------------------*/
+nav a{
+	top:0px;			
+	color:#8B4513;
+	display:inline-block;		
+	width:172px;
+	height:50px;					/*^^setting for layout ^^*/
+	background-color:#DEB887;			/*setting bg color*/
+	text-align:center;				/*text layout*/
+	line-height:50px;
+	text-decoration:none;				/*take off underline*/
+	border-radius:50px;
+}
+/*-------------------------------------------*/
+nav a:hover{
+	color:#ffffff;
+	background-color:#A0522D;			/*setting hover bg color*/
+	text-decoration:none;				/*take off underline*/
+}
+/*-------------------------------------------*/
+nav ul{
+	margin:0;					/*for layout*/
+}
+/*-------------------------------------------*/
+nav li{
+	display:inline;					/*for layout*/
+}
